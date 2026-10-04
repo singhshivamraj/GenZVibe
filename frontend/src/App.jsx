@@ -18,7 +18,7 @@ import Orders from "./pages/Order";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Profile from "./pages/Profile";
 import AdminDashboard from "./admin/AdminDashboard";
-import Addproduct from "./admin/Addproduct";
+import AddProduct from "./admin/AddProduct";
 import AdminProducts from "./admin/AdminProducts";
 import EditProduct from "./admin/EditProduct";
 import AdminOrders from "./admin/AdminOrders";
@@ -82,7 +82,7 @@ function App() {
             />
 
              <Route path="/admin" element={<AdminDashboard />} />
-          <Route path="/admin/add-product" element={<Addproduct />} />
+          <Route path="/admin/add-product" element={<AddProduct />} />
            <Route path="/admin/products" element={<AdminProducts />} />
            <Route path="/admin/products" element={<AdminProducts />} />
            <Route path="/admin/edit-product/:id" element={<EditProduct />} />

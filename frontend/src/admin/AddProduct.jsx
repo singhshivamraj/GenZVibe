@@ -41,7 +41,7 @@ const Field = ({ label, hint, children }) => (
   </label>
 );
 
-const Addproduct = () => {
+const AddProduct = () => {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
 
@@ -363,4 +363,4 @@ const Addproduct = () => {
   );
 };
 
-export default Addproduct;
+export default AddProduct;
