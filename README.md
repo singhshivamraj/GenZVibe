@@ -85,7 +85,7 @@ GenZVibe is a modern full-stack e-commerce web application built using the **MER
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/singhshivamraj/GenZVibe
 cd Ecommerce
 ```
 
@@ -136,7 +136,7 @@ Ecommerce/
 
 The application is deployed using **Render** with MongoDB Atlas, Cloudinary and Razorpay services.
 
-**Live Demo:** `<ADD_LIVE_URL>`
+**Live Demo:** https://genzvibe.onrender.com
 
 ## 📸 Screenshots
 
